@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    color: cadetblue;
+}
+img {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab');
+
+
+
+
+
+.a {
+  background: lemonchiffon;
+  width: 100%;
+  height: 400px;
+  box-shadow: 4px 4px 10px black;
+  border-radius: 1em;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  text-align: center;
+  line-height: 5em;
+}
+
+
+@media (min-width: 600px){
+  .a {
+    background: plum;
+    height: 200px;
+    font-family: 'Josefin Slab', serif;
+    text-shadow: 1px 1px 3px magenta;
+  }
+}

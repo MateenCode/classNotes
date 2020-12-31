@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Leonard",
+        "age": "10",
+        "frequency": "1x/day",
+        "imageUrl": "https://images.unsplash.com/photo-1493916665398-143bdeabe500?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a84d2018ccc77cde60160f8b467b3c80&auto=format&fit=crop&w=1334&q=80"
+    },
+    {
+        "name": "Peggy",
+        "age": "4",
+        "frequency": "1x/day",
+        "imageUrl": "https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?ixlib=rb-0.3.5&s=011eedd288b1e5b1b5e02c3619ad3b1f&auto=format&fit=crop&w=666&q=80"
+    },
+    {
+        "name": "Voldemort",
+        "age": "0.25",
+        "frequency": "3x/day",
+        "imageUrl": "https://images.unsplash.com/photo-1447684808650-354ae64db5b8?ixlib=rb-0.3.5&s=7c54f21912fad3f0b3fee333a4a3a240&auto=format&fit=crop&w=1347&q=80"
+    },
+    {
+        "name": "Petunia",
+        "age": "2",
+        "frequency": "2x/day",
+        "imageUrl": "https://images.unsplash.com/photo-1505044197374-4d4ae3f9d566?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=af3dab3922f397a5fde45b3145a0cbdb&auto=format&fit=crop&w=668&q=80"
+    }
+]

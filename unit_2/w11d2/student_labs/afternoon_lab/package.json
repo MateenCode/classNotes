@@ -1,0 +1,15 @@
+{
+  "name": "mongoose_vampires",
+  "version": "1.0.0",
+  "description": "afternoon lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "mongoose": "^5.9.10"
+  }
+}

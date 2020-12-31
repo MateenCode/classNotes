@@ -1,0 +1,1 @@
+console.log("Mae class is so cool")

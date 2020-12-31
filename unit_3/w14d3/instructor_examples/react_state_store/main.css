@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700|Thasadith');
+
+
+/* color theme https://coolors.co/c5e0eb-919098-897c80-223843-a80874 */
+:root {
+  --modern-powder-blue: #C5E0EB;
+  --blue-greige: #919098;
+  --grape-putty: #897C80;
+  --royal-midnight: #223843;
+  --dark-fuchsia: #A80874;
+}
+
+/* * {
+  border: 1px solid gold;
+} */
+
+
+body {
+  font-family: 'Thasadith', sans-serif;
+  margin: 0;
+  background: var
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: var(--royal-midnight);
+  color: var(--dark-fuchsia);
+  margin-top: 0;
+  padding: 1em;
+  width: 100%;
+}
+
+h2 {
+  transition-duration: 2s;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+}
+
+h3, h4, h5 {
+  text-align: center;
+}
+
+form {
+  box-sizing: border-box;
+  flex-basis: 46%;
+  vertical-align: top;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-right: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+label {
+  flex-basis: 20%;
+}
+
+input[type="text"], textarea, input[type="number"] {
+  flex-basis: 68%;
+  margin: .2em;
+}
+
+input[type="submit"] {
+  flex-basis: 38%;
+  margin: 2em;
+  align-self: center;
+  padding: .5em;
+  font-family: 'Poppins', sans-serif;
+  background: var(--modern-powder-blue);
+}
+
+div {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.container {
+  width : 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  width : 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.preview {
+  flex-basis: 46%;
+  background: var(--blue-greige);
+  margin-right: .5em;
+}
+.products, .cart {
+  flex-basis: 46%;
+  margin: .5em;
+}
+
+li {
+  list-style: none;
+  padding: .3em;
+  text-align: center;
+}
+
+li:nth-child(odd){
+  background: var(--grape-putty);
+  color: var(--modern-powder-blue);
+}

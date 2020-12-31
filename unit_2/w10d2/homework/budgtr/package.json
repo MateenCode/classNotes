@@ -1,0 +1,18 @@
+{
+  "name": "budgtr",
+  "version": "1.0.0",
+  "description": "[![General Assembly Logo](/ga_cog.png)](https://generalassemb.ly)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

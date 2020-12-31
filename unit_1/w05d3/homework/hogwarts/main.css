@@ -1,0 +1,31 @@
+body{
+    background-color: #3aafa9;
+}
+
+h1{
+    color: white;
+}
+
+h2, h3{
+    color: #17252a;
+}
+
+.dog{
+    font-family: fantasy;
+}
+
+ul{
+    list-style: none;
+    color: whitesmoke
+}
+
+table, th, td{
+    border: solid #17252a 3px;
+    background-color: whitesmoke;
+    color: #17252a
+}
+
+.cabbage{
+    color: chartreuse;
+
+}

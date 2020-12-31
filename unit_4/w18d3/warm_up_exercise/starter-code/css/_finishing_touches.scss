@@ -1,0 +1,141 @@
+//WARING - THIS FILE IS CHOCK FULL O' WORST PRACTICES
+//This file is just for demo purposes due to the time constraints of morning exercise,
+// YOU SHOULD NOT:
+//redeclare the same varaibles, rather organize your files/code better
+// use !important, when you could achieve the same thing by organizng your code better
+// import a font in this file when you already made a partial that was specific for fonts
+
+//variables
+$sg-grey   : gainsboro;
+$sg-black  : #515358;
+$sg-white  : #FCFCFC;
+$sg-yellow : #FFCF73;
+$sg-red    : #F1534E;
+
+//fonts
+@font-face {
+  font-family: 'Paranoid';
+  src: url("../assets/fonts/Paranoid.otf") format('truetype');
+}
+
+// Extensions
+.text-shadows {
+  text-shadow: 1px 1px 2px $sg-black;
+}
+
+
+// HEADER
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+h1 {
+  display: inline-block;
+  margin-top: 1.3em;
+  vertical-align: top;
+  font-size: 3em;
+}
+
+.cart {
+  display: inline-block;
+  border-radius: 10%;
+  background-color: $sg-black;
+  color: $sg-white;
+  padding: .5em;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  min-height: 80px;
+  p {
+    font-size: 1.2vmax;
+  }
+}
+
+
+//Container
+
+.container {
+    padding: 2em 0;
+    width: 95%;
+    margin: auto;
+    box-shadow: 0 0 8px $sg-black;
+    background-image: url("../assets/images/pow-star/pow-star.png");
+
+}
+
+h1{
+  animation-duration: 10s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+//WRAPPER
+
+.additional , .wrapper {
+  padding: 2em 0;
+  width: 95%;
+  margin: auto;
+}
+
+//FEATURED
+.featured {
+  background-image:url("../assets/images/pow-star/pow-star.png") !important;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Paranoid";
+  font-size: 5vmax;
+}
+
+button {
+  background-color: orange !important;
+  background-image: url("../assets/images/wov/wov.png") !important;
+  // @extend .text-shadows;
+  box-shadow: 0 0 8px $sg-grey;
+}
+
+button:hover {
+  animation-duration: 6s;
+  animation-name: float-button;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+
+@mixin float( $translate ){
+  0% {
+      transform: translate(0px);
+  }
+  20% {
+    transform: translate($translate , -$translate ) scale(1.01) ;
+  }
+  40% {
+    transform: translate(- $translate , - $translate ) scale(.99);
+  }
+  60% {
+    transform: translate ( 0px  ,  $translate ) ;
+  }
+  80% {
+    transform: translate( - $translate , 0px ) scale(.99);
+  }
+  100% {
+    transform: translate(- $translate, - $translate ) ;
+  }
+}
+
+
+@keyframes float {
+  @include float( 14px )
+}
+
+@keyframes float-button {
+  @include float ( 2px )
+}

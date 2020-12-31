@@ -1,0 +1,85 @@
+Skip to content
+Enterprise
+This repository
+Search
+Pull requests
+Issues
+Explore
+ @krad
+ Sign out
+Scheduled Maintenance: 05:30-06:00 EST, 19th June 2018
+
+1
+1 21 Web-Development-Immersive-Remote/WDIR-Outrun Private
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+WDIR-Outrun/unit_1/w03d03/homework/to_do_app/css/style.css
+50f3144  on Feb 28
+ Jerrica Bobadilla added to do app
+
+58 lines (47 sloc)  786 Bytes
+/*uncomment to see div layout*/
+/*div {
+	border: 1px solid firebrick;
+}*/
+
+body {
+	font-family: monospace;
+}
+
+#container {
+	width: 800px; height: 730px;
+	margin: 0 auto;
+}
+
+#header {
+	text-align: center;
+}
+
+#input-container {
+	text-align: center;
+}
+
+#input-box {
+	height: 30px; width: 300px;
+}
+
+#submit {
+	height: 30px; width: 100px;
+	border: none;
+	background-color: firebrick;
+	color: white;
+}
+
+#to-do-list, #completed {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#to-do-list {
+	width: 380px; height: 600px;
+}
+
+#completed {
+	width: 380px; height: 600px;
+}
+
+.to-do-item {
+	color: white;
+	height: 80px; width: 360px;
+	border: 1px solid grey;
+	background-color: cornflowerblue;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+© 2018 GitHub, Inc.
+Help
+Support
+API
+Training
+Shop
+Blog
+About
+GitHub Enterprise 2.13.1

@@ -1,0 +1,109 @@
+/* VARIABLES */
+:root {
+  --bright-pink: #e74c83;
+  --purple: #735066;
+  --dusty-blue: #74c4cc;
+  --bright-blue: #14bece;
+  --reg-width: 16px;
+}
+
+
+/* GENERAL */
+body {
+  /* background: #ddd; */
+  font-family: helvetica;
+}
+
+/* CONTAINERS */
+.container {
+  width: 80vw;
+  height: 70vw;
+  margin: 50px auto;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #bbb,
+              -1px -1px 10px #bbb,
+              1px -1px 10px #bbb,
+              -1px 1px 10px #bbb;
+}
+.sidebar {
+  width: 50%;
+  background: url('assets/images/neon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 0 0 10px;
+}
+.registration {
+  width: 50%;
+  background: #f9f9f9;
+  border-radius: 0 10px 10px 0;
+  padding: 15px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+/* ETC. DECORATION */
+h1 {
+  font-family: 'Oswald';
+  font-weight: 500;
+  color: var(--bright-pink);
+  border-bottom: 2px solid var(--bright-blue);
+}
+
+/* FORMS */
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+legend {
+  padding: 0px 10px;
+  font-family: 'Oswald';
+  font-weight: 500;
+  color: var(--purple);
+}
+label {
+  font-family: 'Oswald';
+  font-weight: 200;
+  color: var(--bright-pink);
+  display: block;
+}
+
+input[type="submit"] {
+  background: var(--purple);
+  color: white;
+  width: calc(var(--reg-width) + 10rem);
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+    transition: 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 8px 16px rgba(255, 180, 131, 0.9);
+  cursor: pointer;
+background: var(--bright-blue);
+
+}
+
+input[type="submit"]:focus {
+    box-shadow: 0 8px 16px rgba(255, 180, 131, 0.9);
+    cursor: pointer;
+background: var(--bright-blue);
+
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid var(--dusty-blue);
+}
+input:focus {
+  /* the outline property selects the default blue border that shows up on inputs. giving it a value of 0 gets rid of it */
+  outline: 0;
+  border: 1px solid var(--purple);
+}
+textarea {
+  resize: none;
+  height: 75px;
+}

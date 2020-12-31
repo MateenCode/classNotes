@@ -1,0 +1,47 @@
+.container{
+    background-color:#0000ff;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    color: #FFCC00;
+}
+
+content{
+    box-shadow: 0 2px 2px #ccc;
+    width: 500px;
+    margin: 10px;
+    border: 5px solid black;
+    padding: 20px;
+    color: white;
+    
+    text-shadow: 2px 2px black;
+
+}
+
+.add{
+    background-color: green;
+    border: 3px solid green;
+    border-radius: 7%;
+}
+
+
+.sub{
+    background-color:red;
+    border: 3px solid red;
+    border-radius: 7%;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFCC00;
+}
+
+.play{
+    color: #FFCC00;
+}

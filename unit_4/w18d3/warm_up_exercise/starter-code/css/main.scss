@@ -1,0 +1,121 @@
+@import "bourbon/bourbon";
+@import "base/base";
+@import "fonts";
+@import "finishing_touches";
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
+$sg-grey   : gainsboro;
+$sg-black  : #515358;
+$sg-white  : #FCFCFC;
+$sg-yellow : #FFCF73;
+$sg-red    : #F1534E;
+
+<<<<<<< HEAD
+$featured-content-width: 40;
+
+
+
+img {
+    width:  100px;
+}
+
+
+=======
+$featured-content-width: 35%;
+
+
+body {
+    background-color : $sg-grey;
+    color            : $sg-black;
+    font-family: "Afta Sans";
+}
+
+h1 {
+    font-family: "Speck";
+    text-align: center;
+}
+  
+img {
+    width: 100px;
+}
+
+>>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
+.featured {
+    display: flex;
+    width : 98%;
+    margin : auto;
+    justify-content: space-around;
+    background-color : darken($sg-grey, 30%);
+    div {
+<<<<<<< HEAD
+        width: $featured-content-width;
+=======
+        width: $featured-content-width; 
+>>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
+    }
+    h3 {
+        font-family: "Chunk";
+    }
+}
+
+<<<<<<< HEAD
+body {
+    background-color: $sg-grey;
+    color: $sg-black;
+    font-family:  "Afta Sans";
+}
+
+h1 {
+    font-family: "Speck";
+    text-align: center;
+}
+
+.featured-content {
+    border: 1px solid rgba (200, 200, 200, .5);
+    box-shadow: 0 0 8px silver;
+    background-color: lighten($sg-grey, 50%);
+    text-align: center;
+    padding: .5em;
+}
+
+.beef-log {
+    @extend .featured-content;
+    color: $sg-red;
+}
+
+.cheese-log {
+    @extend .featured-content;
+    color: $sg-yellow;
+}
+
+@mixin headerFont  {
+=======
+.featured-content {
+  border: 1px solid rgba (200, 200, 200, .5);
+  box-shadow: 0 0 8px silver;
+  background-color: lighten($sg-grey, 50%);
+  text-align: center;
+  padding: .5em;
+}
+
+.beef-log {
+  @extend .featured-content;
+  color : $sg-red;
+}
+
+.cheese-log {
+  @extend .featured-content;
+  color: $sg-yellow;
+}
+
+@mixin headerFont {
+>>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
+    font-size: 60px;
+}
+
+h1 {
+    @include headerFont;
+}

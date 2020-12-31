@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+nav {
+    padding-bottom: 20px;
+}
+
+nav a {
+    color: black;
+    padding: 0 15px 15px 0;
+}

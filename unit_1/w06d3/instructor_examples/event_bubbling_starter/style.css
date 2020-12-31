@@ -1,0 +1,19 @@
+body {
+  font-family: Verdana;
+}
+
+.outside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #7FF6BF;
+  height: 300px; width: 300px;
+  border: 1px solid black;
+}
+
+.inside {
+  background-color: #F67FB6;
+  height: 150px; width: 150px;
+  border: 1px solid black;
+}

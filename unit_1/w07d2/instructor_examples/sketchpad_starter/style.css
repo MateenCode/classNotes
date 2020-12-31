@@ -1,0 +1,10 @@
+.square {
+    display:inline-block;
+    background: ivory;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.pink {
+    background: pink;
+}

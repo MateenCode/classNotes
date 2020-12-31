@@ -1,0 +1,41 @@
+body {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/5c/7a/93/5c7a9388fd4cb59fcbb9fedc5fa12bd3.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#modal {
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;	
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	/*This puts our modal in front of the body*/
+	overflow: auto;
+	/*If overflow is clipped, a scroll-bar should be added to see the rest of the content*/
+	display: none;
+	/*Set this to none so that the modal does not show initially on page load*/
+}
+#modal-textbox {
+	background-color: white;
+	height: 350px;
+	width: 550px;
+	border-radius: 2px;
+	margin: 150px auto;
+	/*This will set margins for the top and the bottom to 150px (or larger). The right and left will automatically set themselves (and keep the box centered horizontally) */
+	box-shadow:  0 2px 2px rgba(0,0,0,0.2);
+	padding: 2%;
+	line-height: 120%;
+	font-family: arial;
+}
+
+#modal-footer{
+	text-align: right;
+}
+
+h1{
+	padding-bottom: 15px;
+}

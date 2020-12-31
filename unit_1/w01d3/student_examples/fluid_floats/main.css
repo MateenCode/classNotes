@@ -1,0 +1,63 @@
+/* * {
+  border: 1px solid gold;
+} */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One');
+
+body {
+  background: #255C7D;
+  font-family: 'Poiret One', cursive;
+  color: steelblue;
+}
+
+h1, h2 {
+  font-family: 'Comfortaa', cursive;
+  color: black;
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+nav > h1 {
+  display: inline;
+  font-size: 3em;
+}
+
+nav > h3 {
+  display: inline-block;
+  width: 15%;
+  text-align: right;
+  color: ghostwhite;
+}
+
+body {
+  background: linear-gradient( #f8B195 5%, #f67280 10%, #C06C84 20%, #6C5B7B 30%, #255C7D);
+}
+
+.half, .third {
+  background: ghostwhite;
+  display: inline-block;
+  width: 49%;
+  padding: 2%;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-bottom: 16px;
+}
+
+.third {
+  width: 32%;
+  min-height: 280px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.half > img, .third > img {
+  max-width: 50%;
+  float: left;
+  margin-right: 5%;
+  
+}

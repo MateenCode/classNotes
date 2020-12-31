@@ -1,0 +1,53 @@
+div{
+    /* border: 1px solid black; */
+    background-color: grey;
+    border-radius: 10px;
+}
+.parent{
+    width: 250px;
+    height: 500px;
+}
+
+.children-1, .children-2, .children-3,.children-4, .children-5{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    /* border: solid red; */
+    margin: 2%;
+    padding: 7%;
+    
+    
+
+}
+
+.grandchild{
+/* flex: 2; */
+border:solid white;
+background-color: red;
+width: 25%;
+padding: 1%;
+margin: 5px 5px;
+}
+
+.grandchild-0{
+    border: solid lightgray;
+    width: 70%;
+    margin: 5px 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.grandchild-1, .grandchild-2, .grandchild-3, .grandchild-4 {
+    border: solid white;
+    border-radius: 10px;
+    flex: 1;
+    margin: 2%;
+    background-color: red;
+}
+p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 50px;    */
+}

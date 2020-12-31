@@ -1,0 +1,102 @@
+/*************************
+* General
+*************************/
+
+body {
+  background: ghostwhite;
+}
+
+.container {
+  width: 90%;
+  margin:auto;
+  border: 1px solid gold;
+  margin-top: 2.5em;
+}
+
+.demo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+/*************************
+* Transform
+*************************/
+
+.transform {
+  background-color: thistle;
+}
+
+
+/*************************
+* Transition
+*************************/
+
+.transition {
+  background: red;
+}
+
+.transition:hover {
+  background:  blue;
+}
+
+/*************************
+* Animation
+*************************/
+
+.animation {
+  background: black;
+  position: relative;
+}
+
+
+/*simple start*/
+@keyframes black-to-white {
+  0% {background: black}
+  100% {background: ghostwhite}
+}
+
+/*just colors*/
+@keyframes rainbow {
+  0% { background: black; }
+  10% { background: crimson; }
+  25% { background: hotpink;}
+  30% { background: coral;}
+  40% { background: lightyellow; }
+  50% { background: palegreen; }
+  60% { background: mediumaquamarine; }
+  75% { background: steelblue; }
+  80% { background: darkviolet;}
+  90% { background: black; }
+  100% { background: ghostwhite; }
+}
+
+/*colors and movement*/
+@keyframes rainbow-move {
+  0% {background: black; left:0%; top:0%;}
+  10% {background: crimson; }
+  25% {background: hotpink; left: 75%; top:0px;}
+  30% {background: coral;}
+  40% {background: lightyellow;}
+  50% {background: palegreen; left: 75%; top: 10em; }
+  60% {background: mediumaquamarine; }
+  75% {background: steelblue; left:0%; top:10em;}
+  80% {background: darkviolet;}
+  90% {background: black; }
+  100% {background: ghostwhite; left:0px; top:0px; }
+}
+
+/*colors, movement and rotation*/
+@keyframes rainbow-move-change {
+  0% {background: black; left:0%; top:0%;}
+  10% {background: crimson; }
+  25% {background: hotpink; left: 75%; top:0px;}
+  30% {background: coral;}
+  40% {background: lightyellow;}
+  50% {background: palegreen; left: 75%; top: 10em; transform: rotate(600deg); }
+  60% {background: mediumaquamarine; }
+  75% {background: steelblue; left:0%; top:10em; border-radius: 100%;}
+  80% {background: darkviolet;}
+  90% {background: black; }
+  100% {background: ghostwhite; left:0px; top:0px; }
+}

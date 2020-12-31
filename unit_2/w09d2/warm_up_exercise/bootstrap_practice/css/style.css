@@ -1,0 +1,66 @@
+svg {
+    width: 30vmax;
+  }
+  span {
+    display: block;
+  }
+  h1 {
+    display: inline-block;
+    text-align: center;
+  }
+  h4  {
+    text-align: center;
+  }
+  /*star shape from: https://css-tricks.com/examples/ShapesOfCSS/*/
+  #star-five {
+  
+  margin: 100px auto 50px;
+  position: relative;
+  display: block;
+  color: #21BBF0;
+  width: 0px;
+  height: 0px;
+  border-right:  100px solid transparent;
+  border-bottom: 70px  solid #21BBF0;
+  border-left:   100px solid transparent;
+  -moz-transform:    rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  -ms-transform:     rotate(35deg);
+  -o-transform:      rotate(35deg);
+  display: inline-block;
+  }
+  
+  #star-five:before {
+  border-bottom: 80px solid #21BBF0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+  -moz-transform:    rotate(-35deg);
+  -ms-transform:     rotate(-35deg);
+  -o-transform:      rotate(-35deg);
+  
+  }
+  #star-five:after {
+  position: absolute;
+  display: block;
+  color: #21BBF0;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #21BBF0;
+  border-left: 100px solid transparent;
+  -webkit-transform: rotate(-70deg);
+  -moz-transform:    rotate(-70deg);
+  -ms-transform:     rotate(-70deg);
+  -o-transform:      rotate(-70deg);
+  content: '';
+  }

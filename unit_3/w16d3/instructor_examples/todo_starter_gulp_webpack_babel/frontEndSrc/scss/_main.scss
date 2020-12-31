@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Thasadith:700');
+
+/* https://coolors.co/041725-1b374b-3d232c-c39c93-d6c9ba */
+/* https://coolors.co/ffffff-74b0bc-ccc5b9-d5cedd-326273 */
+:root {
+  --languid-lavender: #d5cedd;
+  --moonstone-blue: #74b0bc;
+  --myrtle-green: #326273;
+  --old-burgundy: #3d232c;
+  --pale-silver: #ccc5b9;
+  --reliable-grey: #F7F6F6;
+  --rich-black-fogra29: #041725;
+  --space-cadet: #1b374b;
+  --tuscany: #c39c93;
+  --white: #ffffff;
+}
+
+
+body {
+  background: var(--reliable-grey);
+  margin: 0;
+  font-family: 'Thasadith', sans-serif;
+}
+
+h1 {
+  background: var(--myrtle-green);
+  color: var(--moonstone-blue);
+  margin-top: 0;
+  text-align: center;
+  padding: 1em;
+}
+
+input[type="submit"] {
+  padding: .5em;
+  background: var(--languid-lavender);
+  color: var(--moonstone-blue);
+}
+
+input[type="text"] {
+  padding: .5em;
+}
+
+tr {
+  padding: .5em;
+  color: var(--myrtle-green);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+
+table {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding: .2em;
+}
+
+.complete {
+  color: var(--pale-silver);
+}

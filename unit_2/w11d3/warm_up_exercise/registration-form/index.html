@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>REGISTRATION</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,500" rel="stylesheet">
+  </head>
+  <body>
+    <!-- ============= CONTAINER ============== -->
+    <div class="container">
+      <!-- sidebar -->
+      <div class="sidebar"></div>
+      <!-- registration container -->
+      <div class="registration"></div>
+        <h1>REGISTRATION</h1>
+        <!-- START FORM -->
+        <form action="/register" method="POST">
+          <!-- fieldset for account info -->
+          <fieldset class="account-info">
+            <!-- legend for account info -->
+            <legend>ACCOUNT INFORMATION</legend>
+              <!-- username -->
+              <label for="username">USERNAME</label>
+              <input type="text" id="username" placeholder="default"/>
+              <!-- password -->
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password">
+              <!-- email -->
+              <label for="email">E-MAIL</label>
+              <input type="email" id="email"/>
+          </fieldset>
+          <!-- fieldset for profile info -->
+          <fieldset class="profile-info">
+            <!-- legend for profile info -->
+            <legend>PROFILE INFORMATION</legend>
+              <!-- biography -->
+              <label for="biography">BIOGRAPHY</label>
+              <!-- textarea for larger bodies of text -->
+              <textarea id="biography"></textarea>
+          </fieldset>
+          <!-- submit button -->
+          <input type="submit" value="Register">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

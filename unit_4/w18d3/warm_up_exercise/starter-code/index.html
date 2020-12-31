@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Space Ghost Super Store</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./assets/images/SpaceGhost.png">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="">
+          <img src="./assets/images/SpaceGhost.png" >
+        </div>
+        <div class="">
+          <h1>Space Ghost Online Food Delivery</h1>
+        </div>
+
+        <div class="cart">
+          <p>Your cart</p>
+            <p>0</p>
+        </div>
+      </header>
+      <div class="container">
+        <h2>Featured</h2>
+        <div class="featured">
+
+
+        <div class="beef-log">
+          <h3>Beef Log</h3>
+          <p>Beef Log, Beef Log</p>
+          <p>What a treat!</p>
+          <p>A hefty hunk of processed meat</p>
+          <p>dipped in mustard, oh what joy!</p>
+          <p>I am a jolly Beef Log boy!</p>
+          <p>Hot or spicy, mild or plain</p>
+          <p>I even eat the cellophane</p>
+          <p>I might share some with my dog </p>
+          <p>because we both love Beef Log</p>
+          <button type="button" name="button" onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="cheese-log">
+          <h3>Cheese Log</h3>
+          <p>As a meal or as a snack</p>
+          <p>it is my favorite saturated fat</p>
+          <p>Cheese log, Cheese Log</p>
+          <p>cylindrical and yellow</p>
+          <p>cut the cheese log</p>
+          <p>and I am a happy fellow!</p>
+          <button type="button" name="button" onclick="addToCart()">Add to Cart</button>
+        </div>
+        </div>
+      </div>
+      <div class="additional">
+        <h4>Customers Also Bought</h4>
+        <ul>
+          <li>Soup on a Stick</li>
+          <li>Pizza</li>
+          <li>Mashed Potatoes</li>
+          <li>Beans</li>
+        </ul>
+      </div>
+      <footer><a href="https://www.youtube.com/watch?v=1UsqmiA0zoI">Learn More</a></footer>
+    </div>
+    <script type="text/javascript">
+    var cart = document.getElementsByTagName('p')[1];
+    var count = 0;
+      var addToCart =  () => {
+        count++;
+        cart.innerHTML =   count ;
+      }
+    </script>
+  </body>
+</html>
