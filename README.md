@@ -3,8 +3,6 @@
 # BIG CHANGE!!!!
 # Software Engineering Immersive Remote Flex - MAE
 
-Hello world - Khoury's repo
-
 * Course Meeting Details
 * Instructor Team
 * Communication
@@ -112,7 +110,7 @@ Sheets (CSS), and JavaScript.
 | Unit 5 | Week 23 • July 14 - July 18 | React Portfolio (React Hooks , Styled Components) + Backend
 | Unit 5 | Week 24 • July 21 - July 25 | Capstone Project + Student Choice Lecture 
 | Unit 5 | Week 25 • July 28 - August 1 | Capstone Project + Student Choice Lecture (Mock Interviews)
-| Unit 5 | Week 26 • August 4 - August 8 | Capstone Project, Presentations and Celebration!
+| Unit 5 | Week 26 • August 4 - August 8 | Capstone Project + (Mock Interviews), Presentations and Celebration!
 
 
 <br>
@@ -256,20 +254,18 @@ All course recordings will be linked below as well as quick links to that days m
 | w20d2 |[Candies Algo](./unit_4/w20d2/warm_up_exercise)| [Rails Controllers continued](./unit_4/w20d2/instructor_notes)| [Books app cont](./unit_4/w20d2/student_labs)|[Tweetr](./unit_4/w20d2/homework)| [Recording](https://generalassembly.zoom.us/rec/play/uZ17cOn6-G43HtKXuQSDBPR9W47pKKysgyZN8_pbyEy0BiECY1qjMOMTa-Ucyovkb4FTqwYUNkvSdxcD?continueMode=true&_x_zm_rtaid=KO0R7DkXQFui71q9xpS7Kw.1593131981406.0de1a666c50873dcef423e505172bc5a&_x_zm_rhtaid=731)
 | w20d3 |[Intro to Regular Expressions](./unit_4/w20d3/warm_up_exercise)| [Rails Scaffold, Create React App, CORS](./unit_4/w20d3/instructor_notes)| [](./unit_4/w20d3/student_labs)|[Dating App](./unit_4/w20d3/homework)| [Recording](https://generalassembly.zoom.us/rec/play/vcJ8db2s_Go3G9SRuASDB_QqW9S_KKmshiNKrKUEnkexUSFQYVGhNLQUa-plgAj_UuYMz3hJ4VUxmeQH?autoplay=true&startTime=1593266511000)
 | w21d1 |[Intersection of Two Arrays](./unit_4/w21d1/warm_up_exercise)| [One to Many](./unit_4/w21d1/instructor_notes)| [Data Modeling](./unit_4/w21d1/student_labs)|[](./unit_4/w21d1/homework)| [Recording](https://generalassembly.zoom.us/rec/play/65wufumt-zg3GoGd4wSDVP99W9W8J6is0XdM-6FZy069W3ACYVHyY-QVYfiN3XJHHhXlb4IeqEYdtx8?continueMode=true&_x_zm_rtaid=Cp9UqUspQXC3LzMtXoUFgw.1593637473887.ecc5f0388f8206145e2f68f89f8d32d2&_x_zm_rhtaid=298)
-<!--
-| w21d2 |[](./unit_4/w21d2/warm_up_exercise)| [One to Many cont.](./unit_4/w21d2/instructor_notes)| [Stock Prices](./unit_4/w21d2/student_labs)|[Products and Reviews](./unit_4/w21d2/homework)|
-| w21d3 |[](./unit_4/w21d3/warm_up_exercise)| [Many to Many Through, Heroku Deployment](./unit_4/w21d3/instructor_notes)| [](./unit_4/w21d3/student_labs)|[](./unit_4/w21d3/homework)|
-| w22d1 | **Final Projects** |
-| w22d2 | **Final Projects** |
-| w22d3 | **Final Projects** |
-| w23d1 | **Final Projects** |
-| w23d2 | **Final Projects** |
-| w23d3 | **Final Projects** |
-| w24d1 | **Final Projects** |
-| w24d2 | **Final Projects** |
-| w24d3 || **Final Project Presentations & Graduation ** ||
+| w21d2 |[Multiple Sum Algo](./unit_4/w21d2/warm_up_exercise)| [One to Many cont.](./unit_4/w21d2/instructor_notes)| [Stock Prices](./unit_4/w21d2/student_labs)|[Products and Reviews](./unit_4/w21d2/homework)| [Recording](https://generalassembly.zoom.us/rec/play/uMd7cO2qrGg3EoCR5QSDCvB6W9S-e_isgyYa-fJZmE7gVHIFMVD0ZbNBNrBYhIO2gPzWw2WqWs3aJaJF?continueMode=true&_x_zm_rtaid=jpMiXxPNTKODPYQx5-W0Pg.1593713834250.09301bcfabbb7b55dbd7079fe488edb4&_x_zm_rhtaid=300)
+| w22d1 |[SVGs](./unit_4/w22d1/warm_up_exercise)| [Many to Many Through, Heroku Deployment](./unit_4/w22d1/instructor_notes)| [Playlists and Songs](./unit_4/w22d1/student_labs)|[Unit 4 Project](./unit_4/w22d1/homework)| [Recording](https://generalassembly.zoom.us/rec/play/u5IrI-2h-m03TtCTswSDA6AtW9W0Kv6s0SAa-PcNnU-0VXkGOlTwYLYaNrYX_UK5NbMse3gEGV4_xpmP?continueMode=true&_x_zm_rtaid=qX-bbCjKRLWklK9j7Zk2bA.1594241291356.ae734e05bb8759e173aa2a3188e9adb3&_x_zm_rhtaid=845)
+| w22d2 |[]()| []()| []()| []()| [Freelancer Discussion](https://generalassembly.zoom.us/rec/play/uJwlJen8pzg3HtbEsQSDV6VxW9Tpf6ysgyZNq_cOz0ywWiUEYwehYbVEM7YN70ubFDcdnKFhBRcGuVZp?continueMode=true&_x_zm_rtaid=TNijWtDZTpi6PpixIccyvw.1594648664091.bbf8ab182fd5912cbece213157887353&_x_zm_rhtaid=247) 
+| w22d3 |[]()| []()| []()| []()| [Afternoon Recording](https://generalassembly.zoom.us/rec/play/tMB8deGvrD03S4eWuQSDA_96W9W8LKisgyAYq_cJyxzmUyZRZluhZORHNuFrs9JU1UJ4kNAscJLaYbFF?continueMode=true&_x_zm_rtaid=TNijWtDZTpi6PpixIccyvw.1594648664091.bbf8ab182fd5912cbece213157887353&_x_zm_rhtaid=247)
+| w23d1 | []() | [React Hooks & Styling](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-MAE/tree/master/unit_5/w23d1/instructor_notes) | []() | [portfolio](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-MAE/blob/master/unit_4/w22d3/homework/portfolio/portfolio.md) |   [Recording](https://generalassembly.zoom.us/rec/play/usEoceH6qjo3SN2UsASDVPAqW468eq2sh3cervMJzx60VyZSO1ajYuZGMe2DCLqupc7ks3zMoH9_QaA?continueMode=true&_x_zm_rtaid=bKYxTR_bTJC-MVhsF9wdZw.1594829170349.7016338021c61ddb1ef3800bf519c6cd&_x_zm_rhtaid=766) |
+| w23d2 | []() | [React Hooks & Styling](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-MAE/tree/master/unit_5/w23d1/instructor_notes) | []() | [portfolio](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-MAE/blob/master/unit_4/w22d3/homework/portfolio/portfolio.md) |   [Recording](https://generalassembly.zoom.us/rec/share/_vRQK7LX209IY6P06Fvuc5YvAJ7Heaa80Ske-vpZnk6YNm51f7N2bEkYX9j7sJCu)
+| w24d1 | **Final Projects - Wordpress Lecture - AMA With Jane Nath** | [Recording](https://generalassembly.zoom.us/rec/play/vpQuIeH7_Do3ToWT5ASDCqBwW43pL6qs0iEZ-aZfnxzhViRXNAXzYrUaZ-Ts0hAv-9FqfT2HQ8wTtnVC?continueMode=true&_x_zm_rtaid=6cH0ZzbBS2SNHVewUwbmuw.1595463474149.d2d5563ce92ff150c849765a4f63bae1&_x_zm_rhtaid=478)
+| w24d2 | **Final Projects - | [Capstone Project](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-MAE/tree/master/unit_5/w23d3/homework) 
+| w24d3 | **Final Projects - Wordpress Lecture - AMA with Joovay Arias** | [Recording](https://generalassembly.zoom.us/rec/share/6tJIA4uo7HlLXdaX41vkBpBmAJS4X6a8hnBMr6YExBXV0Ppq8SCLdliTvwPlUOg)
+| w25d3 | **Shopify Walkthrough && Final Project Lab** | [Morning Recording](https://generalassembly.zoom.us/rec/play/6ZQrc-Ghqj03HYXHtQSDAfV4W467KP-shHUd_6IMmhqzW3BXMVSiZLsXY-t6FH4rfjhhQii9VW7GunTS?continueMode=true&_x_zm_rtaid=LlAItVm9QOi3J0exyQnMhA.1596492669294.24401ea8e5341d69191b8a988acbba6a&_x_zm_rhtaid=953) [Algo Recording](https://generalassembly.zoom.us/rec/play/vpN8Jumhpjk3TtzBuASDVvJ7W43vK_-s1iJI-KAMmUe2AiRXN1HwYuASZ7Eut-thGT6k4NVM8Ugz37da?continueMode=true&_x_zm_rtaid=LlAItVm9QOi3J0exyQnMhA.1596492669294.24401ea8e5341d69191b8a988acbba6a&_x_zm_rhtaid=953)
+| w26d3 | **Final Project Presentations & Graduation** | [Morning Recording](https://generalassembly.zoom.us/rec/play/uMUkJeqg-j83SNfEsASDAKN6W47oJq2sgXRI-6cIz0qxU3ELN1qjMrdDNuJfGi1ICVuNdcPoTNU3PQ14?continueMode=true) [Afternoon Recording](https://generalassembly.zoom.us/rec/play/68J_cOn8_zw3EtTAswSDB6AqW9Tsf6-shyEX8qULmRm0UncHNAejZrMWaqUF3mGoot3QW-waBFsdHFo?continueMode=true)
 
--->
 
 <br>
 <hr>
