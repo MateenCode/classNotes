@@ -318,11 +318,7 @@ hr {
   font-family: "Chunk";
   src: url("../assets/fonts/ChunkFive/Chunkfive.otf") format("truetype"); }
 @font-face {
-<<<<<<< HEAD
-  font-family: "Speck";
-=======
   font-family: 'Speck';
->>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
   src: url("../assets/fonts/Speck-Display.otf") format("truetype"); }
 @font-face {
   font-family: 'Paranoid';
@@ -418,8 +414,6 @@ button:hover {
     transform: translate(-2px, 0px) scale(0.99); }
   100% {
     transform: translate(-2px, -2px); } }
-<<<<<<< HEAD
-=======
 body {
   background-color: gainsboro;
   color: #515358;
@@ -429,7 +423,6 @@ h1 {
   font-family: "Speck";
   text-align: center; }
 
->>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
 img {
   width: 100px; }
 
@@ -440,26 +433,10 @@ img {
   justify-content: space-around;
   background-color: #909090; }
   .featured div {
-<<<<<<< HEAD
-    width: 40; }
-  .featured h3 {
-    font-family: "Chunk"; }
-
-body {
-  background-color: gainsboro;
-  color: #515358;
-  font-family: "Afta Sans"; }
-
-h1 {
-  font-family: "Speck";
-  text-align: center; }
-
-=======
     width: 35%; }
   .featured h3 {
     font-family: "Chunk"; }
 
->>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
 .featured-content, .beef-log, .cheese-log {
   border: 1px solid rgba 200, 200, 200, 0.5;
   box-shadow: 0 0 8px silver;

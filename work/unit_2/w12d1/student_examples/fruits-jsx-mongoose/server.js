@@ -3,14 +3,13 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const Fruit = require('./models/fruits.js');
-const methodOverride = require('method-override')
 
 // middleware
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));
 app.set('view engine', 'jsx');
 app.engine('jsx', require('express-react-views').createEngine());
-app.use(methodOverride('_method'));
+
 // mongoose connection
 mongoose.connect('mongodb://localhost:27017/basiccrud', { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.once('open', () => {
@@ -83,37 +82,6 @@ app.get('/fruits/:id', (req, res) => {
         });
     });
 });
-
-app.delete('/fruits/:id', (req, res) => {
-    // delete document from collection
-    Fruit.findByIdAndRemove(req.params.id, (err, fruit)=> {
-        res.redirect('/fruits')
-    })
-
-})
-
-//edit
-
-app.get('/fruits/:id/edit', (req,res)=> {
-    //find our document from the collection-using moongoose model
-    Fruit.findById(req.params.id, (err, foundFruit)=> {
-        //render the edit view and pass it the fruit
-        res.render('Edit', {fruit:foundFruit})
-    })
-})
-
-//put route//
-
-app.put('/fruits/:id', (req, res)=> {
-    if(req.body.readyToEat === "on") {
-        req.body.readyToEat = true;
-    } else{
-        req.body.readyToEat = false
-    }
-    Fruit.findByIdAndUpdate(req.params.id, req.body, {new:true}, (err, updateModel) => {
-        res.redirect('/fruits');
-    } )
-})
 
 
 // listen

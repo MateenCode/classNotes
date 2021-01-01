@@ -95,7 +95,7 @@ const f2 = (limit) => {
   let current = 1;
   while (current <= limit) {
     let next = current + previous;
-    previous = current
+    previous = current;
     current = next;
     if (current % 2 === 0) {
       evenSum += current;

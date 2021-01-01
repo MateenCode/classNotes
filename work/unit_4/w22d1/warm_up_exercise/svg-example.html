@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rick Astly Would never</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  </head>
+
+  <style>
+  h1 {
+    text-align: center;
+    color : #3909F4;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+  }
+
+  .arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+  }
+
+  .arc path {
+    stroke: #fff;
+  }
+
+  .container {
+    width: 98%;
+  }
+  svg {
+    display: inline-block;
+  }
+
+  .piechart:hover {
+    animation: 10s linear 0s infinite spin
+  }
+  @keyframes spin {
+    from {transform: rotate(0deg);}
+    to   {transform: rotate(360deg);}
+  }
+  </style>
+  <body>
+  <h1>Rick Astley Would Never</h1>
+  <div class="container">
+    <svg width="480" height="250" class="piechart"></svg>
+    <svg width="308px" height="212px" viewBox="0 0 308 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+        <title>Legend</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Legend" transform="translate(0.000000, -2.000000)">
+                <rect id="Rectangle" fill="#F500A6" x="0" y="2" width="29" height="27" rx="8"></rect>
+                <text id="Let-you-down" font-family="BanglaMN, Bangla MN" font-size="20" font-weight="normal" fill="#3909F4">
+                    <tspan x="41" y="21">Let you down</tspan>
+                </text>
+                <rect id="Rectangle" fill="#9900B4" x="0" y="39" width="29" height="27" rx="8"></rect>
+                <text id="Run-around-&amp;-desert" font-family="BanglaMN, Bangla MN" font-size="20" font-weight="normal" fill="#3909F4">
+                    <tspan x="41" y="58">Run around &amp; desert you</tspan>
+                </text>
+                <rect id="Rectangle" fill="#55FF00" x="0" y="76" width="29" height="27" rx="8"></rect>
+                <text id="Make-you-cry" font-family="BanglaMN, Bangla MN" font-size="20" font-weight="normal" fill="#3909F4">
+                    <tspan x="41" y="95">Make you cry</tspan>
+                </text>
+                <rect id="Rectangle" fill="#00D0FF" x="0" y="113" width="29" height="27" rx="8"></rect>
+                <text id="Say-goodbye" font-family="BanglaMN, Bangla MN" font-size="20" font-weight="normal" fill="#3909F4">
+                    <tspan x="41" y="132">Say goodbye</tspan>
+                </text>
+                <rect id="Rectangle" fill="#4C0DAE" x="0" y="150" width="29" height="27" rx="8"></rect>
+                <text id="Tell-a-lie-&amp;-hurt-yo" font-family="BanglaMN, Bangla MN" font-size="20" font-weight="normal" fill="#3909F4">
+                    <tspan x="41" y="169">Tell a lie &amp; hurt you</tspan>
+                </text>
+                <rect id="Rectangle" fill="#FA23ED" x="0" y="187" width="29" height="27" rx="8"></rect>
+                <text id="Give-you-up" font-family="BanglaMN, Bangla MN" font-size="20" font-weight="normal" fill="#3909F4">
+                    <tspan x="41" y="206">Give you up</tspan>
+                </text>
+            </g>
+        </g>
+    </svg>
+  </div>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script>
+  var data = [
+  {
+    neverGonna : "Let you down",
+    thisManyTimes : 7
+  },
+  {
+    neverGonna : "Run around & desert you",
+    thisManyTimes : 11
+  },
+  {
+    neverGonna : "Make you cry",
+    thisManyTimes : 17
+  },
+  {
+    neverGonna : "Say goodbye",
+    thisManyTimes : 17
+  },
+  {
+    neverGonna : "Tell a lie & hurt you",
+    thisManyTimes : 17
+  },
+  {
+    neverGonna : "Give you up",
+    thisManyTimes : 31
+  },
+  ]
+
+  var svg = d3.select("svg"),
+      width = +svg.attr("width"),
+      height = +svg.attr("height"),
+      radius = Math.min(width, height) / 2,
+      g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+  var color = d3.scaleOrdinal(["#00DCFF", "#F409AE", "#9B00B8", "#72FF00", "#FFFA00", "#FC32F5", "#ff8c00"]);
+
+  var pie = d3.pie()
+      .sort(null)
+      .value(function(d) { return d.thisManyTimes; });
+
+  var path = d3.arc()
+      .outerRadius(radius - 10)
+      .innerRadius(0);
+
+  var label = d3.arc()
+      .outerRadius(radius - 40)
+      .innerRadius(radius - 40);
+
+
+
+    var arc = g.selectAll(".arc")
+      .data(pie(data))
+      .enter().append("g")
+        .attr("class", "arc");
+
+    arc.append("path")
+        .attr("d", path)
+        .attr("fill", function(d) { return color(d.data.neverGonna); });
+
+    arc.append("text")
+        .attr("transform", function(d) { return "translate(" + label.centroid(d) + ")"; })
+        .attr("dy", "0.35em")
+        // .text(function(d) { return d.data.neverGonna; });
+  </script>
+  <!-- <desc>Code taken and modified from https://bl.ocks.org/mbostock/3887235 </desc> -->
+  </body>
+</html>

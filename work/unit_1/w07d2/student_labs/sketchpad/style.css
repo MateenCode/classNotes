@@ -1,6 +1,6 @@
 .square {
-    /* display:inline-block; */
-    background:black
+    display:inline-block;
+    background: ivory;
     width: 20px;
     height: 20px;
     border: 1px solid black;

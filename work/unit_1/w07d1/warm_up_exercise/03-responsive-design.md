@@ -29,7 +29,7 @@ Not that long ago, building a successful online presence meant just ensuring tha
 
 Fast forward to today and desktop browsing is rapidly being replaced by surfing on mobile devices.
 
-Approximately 80% percent of Americans now own a smartphone and well over 50% of web pages are served to smartphones **globally**!
+Approximately 96% percent of Americans now own a smartphone and well over 52% of web pages are served to smartphones **globally**!
 
 Web sites and applications designed just for desktop displays don't cut it anymore!
 

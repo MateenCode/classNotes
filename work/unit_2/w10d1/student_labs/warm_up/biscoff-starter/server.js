@@ -19,33 +19,13 @@ app.use(express.urlencoded({ extended: false }));
 
 // index route
 app.get('/bakedgoods', (req, res) => {
-	// res.send(bakedGoods);
-	res.render('Index', {title: "My Baked Goods", bakedGoods: bakedGoods})
-});
-app.post('/bakedgoods', (req, res) => {
-    bakedGoods.push(req.body);
-    // console.log(req.body);
-    res.redirect('/bakedgoods');
-})
-
-
-// new route/////
-
-app.get('/bakedgoods/new', (req, res) => {
-    res.render('New');
-
+	res.send(bakedGoods);
 });
 
 // show route
 app.get('/bakedgoods/:id', (req, res) => {
-	// res.send(bakedGoods[req.params.id]);
-	res.render('Show', {bakedGoods: bakedGoods[req.params.id]});
+	res.send(bakedGoods[req.params.id]);
 });
-
-
-
-
-
 
 
 // =======================================

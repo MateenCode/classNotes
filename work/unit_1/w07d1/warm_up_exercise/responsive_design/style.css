@@ -40,28 +40,3 @@
     justify-content: center;
     align-items: center;
   }
-/**when we are at a minimum of 768px use this style**/
-  @media only screen and (min-width: 768px) {
-    aside {
-      background-color: red;
-    }
-
-    main {
-      background-color: lightseagreen;
-    }
-/*closing media query */
-  }
-  /* Desktop Break point */
-/**when we are at a minimum of 1024px use this style**/
-  @media only screen and (min-width: 1024px) {
-    aside{
-      width: 30%;
-    }
-    main{
-      width: 70%;
-    }
-    aside,main{
-      height: calc(100vh - 120px);
-    }
-  }
-

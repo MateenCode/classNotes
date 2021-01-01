@@ -10,19 +10,11 @@ router.get('/', (req, res) => {
     });
 });
 
-//create route///
 router.post('/', (req, res) => {
     Todos.create(req.body, (err, createTodo) => {
         res.json(createTodo);
     })
 });
-
-//update route
-router.put('/:id', (req,res) => {
-    Todos.findByIdAndUpdate(req.params.id, req.body,(err, updatedTodo) => {
-        res.json(updatedTodo);
-    })
-})
 
 
 //http://localhost:3000/todos/58f79d490708714536c02474

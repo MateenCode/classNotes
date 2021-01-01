@@ -14,7 +14,6 @@ const vampireSchema = new Schema({
 	victims: { type: Number, min: 0 }
 });
 
-// Vampire model///
 const Vampire = mongoose.model('Vampire', vampireSchema);
 
 //make this exportable to be accessed in `app.js`

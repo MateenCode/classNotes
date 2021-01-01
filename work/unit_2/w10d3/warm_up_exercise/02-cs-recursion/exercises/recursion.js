@@ -2,13 +2,9 @@
 // You will have to figure out what parameters to include
 // All functions must use recursion
 
-function findMax(arr){
-    Math.max(arr);
-    return arr
-
+function findMax(){
     // This function returns the largest number in a given array.
 }
-console.log()
 
 function factorial(){
     // This function returns the factorial of a given number.
@@ -29,16 +25,7 @@ function coinFlips(){
     // Represent the two outcomes of each flip as "H" or "T"
 }
 
-var allArrays = ['a', 'b', 'c']
-function letterCombinations(arr){
-    if(arr.length === 1) {
-        return arr[0]
-    } else{
-        let result = []
-        
-    
-    }
-
+function letterCombinations(){
     // This function returns an array of all combinations of the given letters
     // Input type: Array of single characters
     // For example, letterCombinations(["a","b","c"]) would return the following:

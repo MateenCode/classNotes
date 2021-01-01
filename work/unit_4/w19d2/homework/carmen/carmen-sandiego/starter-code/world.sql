@@ -1079,7 +1079,7 @@ COPY city (id, name, countrycode, district, population) FROM stdin;
 1033	Lucknow	IND	Uttar Pradesh	1619115
 1034	Pune	IND	Maharashtra	1566651
 1035	Surat	IND	Gujarat	1498817
-1036	Jaipur	IND	Rajasthan	145848
+1036	Jaipur	IND	Rajasthan	1458483
 1037	Indore	IND	Madhya Pradesh	1091674
 1038	Bhopal	IND	Madhya Pradesh	1062771
 1039	Ludhiana	IND	Punjab	1042740

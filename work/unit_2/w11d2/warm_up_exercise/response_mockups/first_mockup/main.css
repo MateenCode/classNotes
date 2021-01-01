@@ -1,35 +1,3 @@
-
-
-.container{
-  background-color: blue;
-  width: auto;
-  height: 100vh;
-}
-.outside{
-  display: flex;
-  /* border: 3px solid gold; */
-  width: auto;
-  height: 25vh;
-}
-
-.rowA{
-  width: 100%;
-  height: 25vh;
-  background-color: gray;
-}
-.rowB{
-  background-color: red;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-}
-
-.columnB{
-  background-color: salmon;
-  width: 75%;
-}
-
-.columnC{
-  background-color: blue;
-  width: 25%;
+body {
+  background: hsla(146, 62%, 95%, 1);
 }

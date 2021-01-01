@@ -25,17 +25,14 @@ router.post('/signup', (req, res) => {
                                     token: token
                                 })
                             } else {
-                                console.log(1)
                                 res.sendStatus(401)
                             }
                         })
                 } else {
-                    console.log(2)
                     res.sendStatus(401)
                 }
             })
     } else {
-        console.log(3)
         res.sendStatus(401)
     }
 })

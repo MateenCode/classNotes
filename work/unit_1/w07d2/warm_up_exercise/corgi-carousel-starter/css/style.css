@@ -36,10 +36,6 @@ body {
 .carousel-images img {
   width: 100%;
   border-radius: 10px;
-  display: none;  
-}
-.carousel-images img:first-of-type {
-  display: block;
 }
 .carousel-button {
   align-self: center;

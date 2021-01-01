@@ -9,7 +9,7 @@ class Node {
 
 class LinkedList {
     constructor() {
-        // a Linked List starts with a "head" property initialized as null
+        // a Linked List starts with a "head" property intialized as null
         this.head = null;
     }
     appendNode(data) {
@@ -53,18 +53,6 @@ class LinkedList {
     removeFromFront() {
         // remove the head node from the list and return it
         // the next node in the list is the new head node
-<<<<<<< HEAD
-        if(!this.head) {
-            return null;
-        }
-
-        let currentHead = this.head;
-        
-        this.head = this.head.next;
-        currentHead.next = null;
-        return currentHead
-        
-=======
         if (!this.head) {
             return null;
         }
@@ -72,7 +60,6 @@ class LinkedList {
         this.head = this.head.next;
         oldHead.next = null;
         return oldHead;
->>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
     }
     insertAt(X, data) {
         // insert a new node into the list with the given data
@@ -146,10 +133,6 @@ class LinkedList {
     }
     search(data) {
         // searches the list for a node with the given data
-     
-      
-        
-
         // if it is found, return the "index" of the node, considering 0 to be the first node
         // // if not, return false
         // let current = this.head;
@@ -167,42 +150,17 @@ class LinkedList {
     sort() {
         // sort the Linked List in ascending order of data values
     }
-<<<<<<< HEAD
-    size() {
-    // track where you currently are
-    // variable to count items
-    let counter = 0;
-    let current = this.head
-=======
 
 }
->>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192
-
-    while(current) {
-        counter ++
-        //move to the next node
-        current = current.next
-    }
-    return counter;
-    }
-}
-
-
-
-const list = new LinkedList();
-list.prependNode(5);
-list.prependNode(25);
-<<<<<<< HEAD
-list.prependNode(30);
-// list.removeFromFront();
-console.log(list.search());
 
 module.exports = {
     Node,
     LinkedList
-    
 }
-=======
+
+const list = new LinkedList();
+list.prependNode(5);
+list.prependNode(25);
 list.appendNode(1)
 list.appendNode(8)
 list.appendNode(9)
@@ -212,4 +170,3 @@ console.log(list.pop());
 
 // console.log(list.search(5))
 
->>>>>>> 94c38cc721e693fd584c238da1e8f001881a8192

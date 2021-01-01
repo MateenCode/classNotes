@@ -2,15 +2,16 @@
 
 
 
-## &#x26A0; Uninstall rvm
-
-If you have RVM already set up you will need to decide whether you want to continue using RVM or if you'd prefer to switch to rbenv. We won't be supporting RVM.
+## &#x26A0; Uninstall RVM (Ruby Version Manager)
 
 To check if you have RVM installed simply run the command `rvm`. If it is not intalled you'll see the message `command not found: rvm`
 
-To uninstall follow these instructions: [uninstall rvm](https://richonrails.com/articles/uninstalling-rvm)
+<img src="https://i.imgur.com/HhZEn1X.png" alt width=400 />
 
-RVM and RBENV do NOT work well together, so having both installed will cause _weirdness_ .
+To uninstall rvm follow these instructions: 
+- [uninstall rvm](https://installvirtual.com/how-to-uninstall-rvm-implode-rvm-on-mac/)
+
+Once you have removed rvm close and reopen the terminal.  Then test running the rvm command and confrim it's been removed.
 
 ## Homebrew
 

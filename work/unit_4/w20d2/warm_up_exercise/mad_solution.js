@@ -1,27 +1,14 @@
-// var distributeCandies = function (candies) {
-//     let obj = {};
+var distributeCandies = function (candies) {
+    let obj = {};
 
-//     for (let i = 0; i < candies.length; i++) {
-//         obj[candies[i]] = i;
-//     }
-
-//     const canHave = candies.length / 2;
-//     const objectToArray = Object.keys(obj).slice(0, canHave);
-
-//     return objectToArray.length;
-// };
-
-// console.log(distributeCandies([1, 1, 2, 2, 3, 3]))
-
-const interect = (nums1, nums2) => {
-    for(let i = 0; i < nums1.length; i++) {
-        obj[nums1] = i
+    for (let i = 0; i < candies.length; i++) {
+        obj[candies[i]] = i;
     }
-    console.log(nums1);
 
-}
+    const canHave = candies.length / 2;
+    const objectToArray = Object.keys(obj).slice(0, canHave);
 
-console.log(interect(nums1, nums2))
+    return objectToArray.length;
+};
 
-let nums1 = [1,2,2,1]
-let nums2 = [2,2]
+console.log(distributeCandies([1, 1, 2, 2, 3, 3]))

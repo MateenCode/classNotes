@@ -51,11 +51,6 @@ button:focus {
   animation: rotate-center 0.6s ease-in-out both;
 }
 
-.complete{
-  background-color: white;
-  color: black;
-}
-
 input {
   width: 300px;
   padding: 1em;
@@ -101,13 +96,11 @@ input:focus {
 /* Style list item specific to done-item */
 .to-do-item {
   background:var(--calm-teal);
-  
 }
 
 /* Style list item specific to done-item */
 .done-item {
-  /* background: var(--candy-pink); */
-  background-color: #ED6495;
+  background: var(--candy-pink);
 }
 
 

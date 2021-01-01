@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "install": "^0.13.0",
-    "mongoose": "^5.9.10"
+    "mongoose": "^5.7.1"
   }
 }

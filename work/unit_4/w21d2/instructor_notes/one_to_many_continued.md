@@ -39,8 +39,8 @@ Make our Frontend server.
 In the top-level `temperatures_app`
 - `npx create-react-app temperatures-client`
 - install chart.js
-- `npm install chart.js` or `yarn add chart.js`
--  `cd temperatures-client && mkdir src/components`
+- ` cd temperatures-client && npm install chart.js`
+-  ` mkdir src/components`
 - `touch src/components/BarChart.js`
 
 **Double check you are running your rails api!**
@@ -245,15 +245,11 @@ import React, { Component } from 'react';
 import Chart from 'chart.js'
 
 class BarChart extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {}
-    this.createChart = this.createChart.bind(this)
-  }
+
   componentDidMount () {
     this.getData()
   }
-  getData () {
+  getData = () => {
     fetch('http://localhost:3000/locations/1')
       .then(data => data.json())
       .then(jData => this.prepareData(jData))

@@ -14,23 +14,23 @@ function getSortedArray() {
   return [-124, -40, 0, 7, 21, 100, 500];
 }
 
-// describe('Bubble sort', () => {
-//   test('sorts an array', () => {
-//     expect(bubbleSort(getArray())).toEqual(getSortedArray());
-//   });
-// });
+describe('Bubble sort', () => {
+  test('sorts an array', () => {
+    expect(bubbleSort(getArray())).toEqual(getSortedArray());
+  });
+});
 
-// describe('insertion Sort', ()=> {
-//   test('sorts an array', ()=> {
-//     expect(insertionSort(getArray())).toEqual(getSortedArray());
-//   });
-// });
+describe('insertion Sort', ()=> {
+  test('sorts an array', ()=> {
+    expect(insertionSort(getArray())).toEqual(getSortedArray());
+  });
+});
 
-// describe('Selection sort', () => {
-//   test('sorts an array', () => {
-//     expect(selectionSort(getArray())).toEqual(getSortedArray());
-//   });
-// });
+describe('Selection sort', () => {
+  test('sorts an array', () => {
+    expect(selectionSort(getArray())).toEqual(getSortedArray());
+  });
+});
 
 describe('Merge sort', () => {
   test('merge function can join together two sorted arrays', () => {

@@ -1,12 +1,9 @@
-const ToDoItem = (todo,index,deleteTodo,updateTodo) => {
+const ToDoItem = (props) => {
     return (
-        
-      <li>     
-            <div className={props.todo.complete ? "complete": ""}>{todo.description}</div>
-            <button onClick={() => deleteTodo(todo._id, index)}>Delete</button>
-            <button onClick={() => updateTodo(todo)}>Complete</button>
+        <li>
+            {props.todo.description}
+            <button onClick={() => props.deleteTodo(props.todo._id, props.index)}>Delete</button>
         </li>
-        
     )
 }
 
@@ -63,22 +60,6 @@ class App extends React.Component {
             })
         });
     }
-// 5/28/class//
-    updateTodo = (todo) =>{
-        todo.complete = !todo.complete;
-        fetch(`/todos/${todo._id}`, {
-            body: JSON.stringify(todo), 
-            method: "PUT",
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            }
-        }).then(response => response.json()).then(data => {
-            //make another call to the server to get the current data
-            this.getData()
-        })
-        
-    }
 
     render() {
         return (
@@ -92,12 +73,7 @@ class App extends React.Component {
                 </form>
                 <ul>
                     {this.state.todos.length > 0 && this.state.todos.map((todo, index) => {
-                        return <ToDoItem 
-                                    todo={todo} 
-                                    index={index} 
-                                    deleteTodo={this.deleteTodo}
-                                    updateTodo = {this.updateTodo} 
-                        />
+                        return <ToDoItem todo={todo} index={index} deleteTodo={this.deleteTodo} />
                     })}
                 </ul>
             </div>

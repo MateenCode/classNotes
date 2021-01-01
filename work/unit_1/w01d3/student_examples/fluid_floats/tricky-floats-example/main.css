@@ -2,19 +2,19 @@ main{
   width: 68%;
   height: 200px;
   background: teal;
-  float: left; 
+/*   float: left;  */
 }
 
  aside {
   width: 28%;
   height: 150px;
   background: orange;
-  float: right;
+/*   float: right; */
  }
 
 footer {
   width: 100%;
   height: 100px;
   background: dodgerblue;
-  clear: both;
+/*   clear: both; */
  }

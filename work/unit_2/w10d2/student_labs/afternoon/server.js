@@ -6,8 +6,7 @@ const app     = express();
 const port = 3000;
 
 // middleware
-app.use(express.urlencoded({ extended: false }))
-app.use(express.json())
+// ?
 
 // data
 const dates = [
@@ -18,17 +17,7 @@ const dates = [
 
 // get route
 
-app.get('/dates', (req, res) => {
-  res.send(dates)
-})
-
 // post route
-app.post('/dates',  (req, res)=> {
-  console.log('req.body is:', req.body);
-  dates.push(req.body);
-  console.log(`all the dates data:, ${dates}` )
-  res.redirect('/dates');
-})
 
 
 app.listen(port, () => console.log('Running on port: ', port));
