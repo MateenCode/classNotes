@@ -68,7 +68,7 @@ Mondays 5:30pm ct - 7:30pm ct
 
 Thursdays 7:30pm ct - 9:00pm ct
 
-#### Nando
+#### Fatima
 
 Saturday 5:30pm ct - 7:30pm ct
 
