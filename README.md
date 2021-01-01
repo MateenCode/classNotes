@@ -1,7 +1,5 @@
 ![ga](ga_cog.png) <br>
 
-# BIG CHANGE!!!!
-
 # Software Engineering Immersive Remote Flex
 
 - Course Meeting Details
@@ -14,6 +12,10 @@
 - Additional Expectations
 - Group Work Formats
 - [Lesson Schedule, Quick Links & Recordings](#class-lessons-recordings)
+
+## Gitbook Link
+
+- [Gitbook](https://app.gitbook.com/@mateencode/s/software-engineering-immersive-remote/)
 
 ## Course Meeting Details
 
