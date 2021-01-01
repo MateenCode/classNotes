@@ -26,7 +26,7 @@
 
 ### Outcomes
 
-- Every other Thursday 6:30 - 8:30 PM Eastern time for Outcomes Sessions starting on 2/20 with Tosin
+- Every other Thursday 6:30 - 8:30 PM Eastern time for Outcomes Sessions starting on 2/20 with Lupe
 
 ### Structured Homework
 
