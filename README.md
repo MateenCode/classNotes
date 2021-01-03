@@ -19,7 +19,7 @@
 
 ## Course Meeting Details
 
-- **Course Dates**: February 11, 2020 - August 8, 2020
+- **Course Dates**: August 18, 2020 - February 23, 2021
 
 ### Class Meetings
 
