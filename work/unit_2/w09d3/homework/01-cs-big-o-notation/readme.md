@@ -7,7 +7,7 @@ This lesson covers the basics of Big O notation.
 
 There are two components to this lesson:
 1. [myGA module: Big O Notation](https://my.generalassemb.ly/activities/511)
-2. [In-Class Exercise] (https://github.com/MateenCode/classNotes/tree/master/work/unit_2/w10d2/warm_up_exercise/01-cs-big-o-notation)
+2. [In-Class Exercise](https://github.com/MateenCode/classNotes/tree/master/work/unit_2/w10d2/warm_up_exercise/01-cs-big-o-notation)
 
 ## Learning Objectives
 By the end of this lesson, you'll be able to:
