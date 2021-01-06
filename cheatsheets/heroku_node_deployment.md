@@ -15,7 +15,7 @@ Check out there website [MongoDB Atlas](https://www.mongodb.com/cloud/atlas#:~:t
 - After registering, Atlas will prompt you to create an organization and project where you can deploy your cluster. You can name your organization after your team name and your project can be named whateveer you like to call your back end db.
 
 - Next we will create our first cluster. We should be on a page similar to this. We should see FREE at the bottom
-~[Cluser creation Screen](https://developer.mongodb.com/images/heroku/create-cluster.png)
+![Cluser creation Screen](https://developer.mongodb.com/images/heroku/create-cluster.png)
 
 - Atlas requires clients to authenticate as MongoDB database users to access clusters, so let's create one real quick for your cluster. Make sure to make the role Atlas Admin+
 ![Atlas add user](https://developer.mongodb.com/images/heroku/add-database-user.gif)
