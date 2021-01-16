@@ -236,16 +236,18 @@ if __name__ == '__main__':
 We will tell flask that during the request/response cycle we need to create a connection to the database. Flask provides some useful decorators to make this easy
 
 ```python
+# Connects db connect
 @app.before_request
 def before_request():
     """Connect to the database before each request."""
     g.db = models.DATABASE
     g.db.connect()
-
-
+    
+# Closes db connect
 @app.after_request
 def after_request(response):
     """Close the database connection after each request."""
+    g.db = models.DATABASE
     g.db.close()
     return response
  ```
