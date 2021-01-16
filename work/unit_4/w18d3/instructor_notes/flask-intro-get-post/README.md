@@ -166,7 +166,7 @@ import datetime
 
 DATABASE = PostgresqlDatabase('dogs-app', host='localhost', port=5432)
 
-class Dog(model):
+class Dog(Model):
     name = CharField()
     owner = CharField()
     bread = CharField()
