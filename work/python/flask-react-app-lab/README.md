@@ -2,12 +2,6 @@
 
 - This will be a concurrent app that you build along with the lessons throughout the week 
 
-
-##### Solutions
-
-- [Muse Flask Backend](https://github.com/marcwright/muse-flask-backend)
-- [Muse React Frontend](https://github.com/marcwright/muse-react-frontend)
-
 <br>
 
 ## DAY ONE
