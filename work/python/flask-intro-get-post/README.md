@@ -162,23 +162,23 @@ This is the ORM (Object-relational mapping) we will use to hook up to our sql da
 
 from peewee import *
 
-DATABASE = SqliteDatabase('dogs.sqlite')
+import datetime
 
+DATABASE = PostgresqlDatabase('dogs-app', host='localhost', port=5432)
 
-class Dog(Model):
+class Dog(model):
     name = CharField()
     owner = CharField()
-    breed = CharField()
+    bread = CharField()
     created_at = DateTimeField(default=datetime.datetime.now)
 
     class Meta:
         database = DATABASE
 
-
-def initialize():
+def Initialize():
     DATABASE.connect()
     DATABASE.create_tables([Dog], safe=True)
-    print("TABLES Created")
+    print("TABLES Create")
     DATABASE.close()
 
 ```
