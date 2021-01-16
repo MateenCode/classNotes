@@ -164,7 +164,7 @@ from peewee import *
 
 import datetime
 
-DATABASE = PostgresqlDatabase('dogs-app', host='localhost', port=5432)
+DATABASE = PostgresqlDatabase('dogs_app', host='localhost', port=5432)
 
 class Dog(Model):
     name = CharField()
