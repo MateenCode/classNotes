@@ -314,7 +314,7 @@ from playhouse.shortcuts import model_to_dict
 # second argument is it's import_name
 # The third argument is the url_prefix so we don't have
 # to prefix all our apis with /api/v1
-dog = Blueprint('dogs', 'dog')
+dogs = Blueprint('dogs', 'dog')
 
 
 ```
@@ -327,7 +327,7 @@ dog = Blueprint('dogs', 'dog')
 
 -  *BluePrints* - The basic concept of blueprints is that they record operations to execute when registered on an application. Flask associates view functions with blueprints when dispatching requests and generating URLs from one endpoint to another.
 
-- `dog = Blueprint('dogs', 'user')` says treat this as a blueprint in the application (module) that we can attach to our flask app the will define a set of view functions.  
+- `dogs = Blueprint('dogs', 'user')` says treat this as a blueprint in the application (module) that we can attach to our flask app the will define a set of view functions.  
 
 
 - In `app.py`
@@ -336,7 +336,7 @@ dog = Blueprint('dogs', 'dog')
 from flask import Flask, g
 from flask_cors import CORS
 
-from resources.dogs import dog # adding this line
+from resources.dogs import dogs # adding this line
 
 DEBUG = True
 PORT = 8000
