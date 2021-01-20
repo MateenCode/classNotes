@@ -4,7 +4,7 @@
 
 // '...' the rest operator takes all the numbers being passed and stores it into a array
 function addAll(...numbers) {
-  return numbers.reduce((a, b) => a + b);
+
 }
 
 // CHALLENGE 2: SUM ALL PRIMES
@@ -12,23 +12,7 @@ function addAll(...numbers) {
 // ex. sumAllPrimes(10) == 17
 
 function sumAllPrimes(num) {
-  let total = 0;
 
-  const checkIfPrime = (num) => {
-    for (let j = 2; j < num; j++) {
-      if (num % j === 0) {
-        return false;
-      }
-    }
-    return true;
-  };
-
-  for (let i = 2; i <= num; i++) {
-    if (checkIfPrime(i)) {
-      total += i;
-    }
-  }
-  return total;
 }
 
 // CHALLENGE 3: SEEK & DESTROY
@@ -36,7 +20,7 @@ function sumAllPrimes(num) {
 // ex. seekAndDestroy([2, 3, 4, 6, 6, 'hello'], 2, 6) == [3, 4, 'hello']
 
 function seekAndDestroy(arr, ...rest) {
-  return arr.filter((val) => !rest.includes(val));
+ 
 }
 
 // CHALLENGE 4: SORT BY HEIGHT
@@ -46,16 +30,7 @@ function seekAndDestroy(arr, ...rest) {
 // sortByHeight(a) == [-1, 150, 160, 170, -1, -1, 180, 190]
 
 function sortByHeight(a) {
-  const arr1 = [];
-  const arr2 = [];
 
-  a.forEach((val, i) => (val === -1 ? arr1.push(i) : arr2.push(val)));
-
-  const sortArr = arr2.sort((a, b) => a - b);
-
-  arr1.forEach((val, i) => sortArr.splice(arr1[i], 0, -1));
-
-  return sortArr;
 }
 
 // CHALLENGE 5: MISSING LETTERS
@@ -66,18 +41,7 @@ function sortByHeight(a) {
 // missingLetters("abcdefghijklmnopqrstuvwxyz") == undefined
 
 function missingLetters(str) {
-  let compare = str.charCodeAt(0);
-  let missing;
 
-  str.split("").map((char, i) => {
-    if (str.charCodeAt(i) == compare) {
-      ++compare;
-    } else {
-      missing = String.fromCharCode(compare);
-    }
-  });
-
-  return missing;
 }
 
 // CHALLENGE 6: EVEN & ODD SUMS
@@ -86,14 +50,7 @@ function missingLetters(str) {
 // evenOddSums([50, 60, 60, 45, 71]) == [170, 116]
 
 function evenOddSums(arr) {
-  let even = 0;
-  let odd = 0;
 
-  for (let val of arr) {
-    val % 2 === 0 ? (even += val) : (odd += val);
-  }
-
-  return [even, odd];
 }
 
 const a = [-1, 150, 160, 170, -1, -1, 180, 190];
