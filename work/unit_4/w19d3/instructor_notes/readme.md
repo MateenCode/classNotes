@@ -108,10 +108,10 @@ This type of complexity is considered pretty good efficiency.
 ex give all albums from an artist print every song from each album
 
 ```js
-  const PrintSongsWithinAlbums = () => {
-    for (let i = 0; i < array.length; i++) {
-      for (let j = 0; j < array.length; j++) {
-        console.log(array[i][j])
+  const PrintSongsWithinAlbums = (twoAlbums) => {
+    for (let i = 0; i < twoAlbums.length; i++) {
+      for (let j = 0; j < twoAlbums[i].length; j++) {
+        console.log(twoAlbums[i][j])
       }
     }
   }
@@ -145,12 +145,10 @@ If there are even more nested iterations, the growth rate can become O(n<sup>3</
 
 ![](https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/big-o/english/10-Input-Size-Run-Time-Graph.png)
 
-#### Aside
-    Recusrive?
 
 ### Logarithmic Complexity `O(log(n))`
 
-Imagine we are calling out to our favorite voice assistant to play a song for us. There are millions of songs out there. Let's say we're looking for `I Can't Get No Satisfaction`
+Imagine we are calling out to our favorite voice assistant to play a song for us. There are millions of songs out there. Let's say we're looking for `Good Vibrations - Marky Mark`
 
 How is our assistant finding our song?
 
