@@ -169,13 +169,13 @@ DATABASE = PostgresqlDatabase('dogs_app', host='localhost', port=5432)
 class Dog(Model):
     name = CharField()
     owner = CharField()
-    bread = CharField()
+    breed = CharField()
     created_at = DateTimeField(default=datetime.datetime.now)
 
     class Meta:
         database = DATABASE
 
-def Initialize():
+def initialize():
     DATABASE.connect()
     DATABASE.create_tables([Dog], safe=True)
     print("TABLES Create")
